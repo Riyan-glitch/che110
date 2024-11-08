@@ -1,0 +1,135 @@
+.water-resources {
+    background-color: #f4f7f6;
+    padding: 60px 0;
+}
+
+.resources-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.resources-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.resources-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.resource-category {
+    width: 30%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.resource-category:hover {
+    transform: translateY(-10px);
+}
+
+.resource-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.resource-category h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.resource-details {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.resource-details li {
+    padding: 8px;
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.resource-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resource-link:hover {
+    background-color: #0056b3;
+}
+
+.global-water-stats {
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat-item {
+    flex: 1;
+    padding: 15px;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.water-challenges {
+    margin-bottom: 40px;
+}
+
+.challenges-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.challenge-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.interactive-resources {
+    text-align: center;
+}
+
+.resources-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.resource-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
